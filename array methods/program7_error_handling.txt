@@ -1,0 +1,18 @@
+const url="https://restcountries.eu/rest/v2/all"
+undefined
+var request=new XMLHttpRequest();
+undefined
+request.open('GET',url,true)
+undefined
+request.send();
+undefined
+request.onload=function (){
+    var countries=JSON.parse(this.response);
+    try{
+        if(countries.length!==300){
+            throw new SyntaxError("incomplete data");
+        }
+    }catch(err){
+        alert(err.stack);
+    }
+}

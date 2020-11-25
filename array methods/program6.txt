@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>UScurrency</title>
+    </head>
+        <body>
+            <script src='prob6.js'></script>
+        </body>
+    
+</html>

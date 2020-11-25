@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Asiapopulation</title>
+    </head>
+        <body>
+            <script src='prob5.js'></script>
+        </body>
+    
+</html>
